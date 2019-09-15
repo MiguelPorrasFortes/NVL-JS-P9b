@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>NVL-JS-P8a</title>
+  </head>
+  <body>
+      <script type="text/javascript" > 
+       //En primer lugar, tenemos que separar cada uno de los elementos de la matriz en ambos
+       var days="Lunes,Martes,Miercoles,Jueves,Viernes,Sabado,Domingo";
+       var daysRight=days.split(",");
+       var cities="Madrid.Sevilla.Barcelona.Valencia.Zaragoza.Bilbao.Donosti";
+       var citiesRight=cities.split(".") 
+       //Posteriormente se trata de irlos combinando para obtener la matriz definitiva
+       var dayAndCity=[[daysRight[0],citiesRight[0]],[[daysRight[1],citiesRight[1]]],[[daysRight[2],citiesRight[2]]],[[daysRight[3],citiesRight[3]]],[[daysRight[4],citiesRight[4]]],[[daysRight[5],citiesRight[5]]],[[daysRight[6],citiesRight[6]]]];
+       alert(dayAndCity);                                       
+    </script>
+  </body>
+</html>
+       
+        
+              
+       
+       
+       
+      
